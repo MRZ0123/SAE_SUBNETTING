@@ -1,0 +1,7 @@
+{
+    "omnisharp.useModernNet":false,
+    "dotnet.server.useOmnisharp":true,
+    "omnisharp.sdkVersion": "2.1.700",
+    "omnisharp.sdkPath": "/usr/lib/dotnet/sdk/2.1.700",
+    "dotnet.dotnetPath": "/usr/lib/dotnet",
+}
