@@ -263,4 +263,6 @@ FakesAssemblies/
 *.opt
 
 # Custom shit here...
-
+*.pdf
+*.cs2
+*.cstest
