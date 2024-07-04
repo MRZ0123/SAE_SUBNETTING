@@ -1,0 +1,31 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>26</x><y>11</y><w>480</w><h>330</h></coordinates><panel_attributes>IP
+--
+- IPAddress : UInt32?
+- subnetMask : UInt32?
+--
++IP()
++IP(in inputIPAddress : string, in inputSubnetMask : string)
+
++readIPAddress() : void
++readSubnetMask() : void
+
++writeIPAddress() : void
++writeSubnetMask() : void
+
++showNetworkID() : void
++showBroadcast() : void
+
+-isIPAddressValid(in IPAddressString : string, out IPAddressUInt32 : UInt32) : bool
+-isIPAValidSubnetMask(in subnetMask : UInt32) : bool
+
+-addressToString(in address : UInt32?) : string
+&lt;&lt;override&gt;&gt;+ToString() : string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>526</x><y>11</y><w>240</w><h>140</h></coordinates><panel_attributes>Bits
+--
+- lookupTable : readonly int[]
+
+- first_octet : const UInt32
+- second_octet : const UInt32
+- third_octet : const UInt32
+- fourth_octet : const UInt32
+--
++ count(in unsignedInt32 : UInt32) : int</panel_attributes><additional_attributes></additional_attributes></element></diagram>
