@@ -53,7 +53,7 @@ namespace SAE_SUBNETTING
             }
         }
 
-        /// Added by: Jugi
+        /// Added by: Manuel
         /// <summary>
         /// Function to read the IP address from class if it exists and display it on the commandline.
         /// </summary>
@@ -74,7 +74,7 @@ namespace SAE_SUBNETTING
             }
         }
 
-        /// Added by: Sven
+        /// Added by: Manuel
         /// <summary>
         /// Function to read the subnet mask from class if it exists and display it on the commandline.
         /// </summary>
@@ -97,7 +97,7 @@ namespace SAE_SUBNETTING
             }
         }
 
-        /// Added by: Jugi
+        /// Added by: Manuel
         /// <summary>
         /// Function to convert the user's input and write it as IP address into the class.
         /// </summary>
@@ -118,7 +118,7 @@ namespace SAE_SUBNETTING
             this.IPAddress = IPAddressUInt32;
         }
 
-        /// Added by: Sven
+        /// Added by: Manuel
         /// <summary>
         /// Function to convert the user's input and write it as subnet mask into the class.
         /// </summary>
@@ -141,7 +141,7 @@ namespace SAE_SUBNETTING
             this.subnetMask = subnetMaskUInt32;
         }
 
-        /// Added by: Jugi
+        /// Added by: Manuel
         /// <summary>
         /// Calculates and displays the network ID of the given subnet mask and IP address if they exist.
         /// </summary>
@@ -264,7 +264,7 @@ namespace SAE_SUBNETTING
             return (subnetMask & (~subnetMask >> 1)) == 0;
         }
 
-        /// Added by: Sven
+        /// Added by: Manuel
         /// <summary>
         /// Convert the given UInt32 address to a string representation in the format "x.x.x.x"
         /// </summary>
